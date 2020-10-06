@@ -1,1 +1,1 @@
-# hygieia-example-app 
+# hygieia-example-app
