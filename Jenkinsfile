@@ -8,7 +8,7 @@ pipeline {
         }
         stage('SonarQube') {
             steps {
-                sh './gradlew -Dsonar.host.url=http://sonarqube:9000 jacocoTestReport sonarqube'
+                sh './gradlew -Dsonar.host.url=http://localhost:9000 jacocoTestReport sonarqube'
             }
         }
     }
